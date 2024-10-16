@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>HepsiApi.Production</ActiveDebugProfile>
+    <ActiveDebugProfile>HepsiApi.Development</ActiveDebugProfile>
   </PropertyGroup>
 </Project>
