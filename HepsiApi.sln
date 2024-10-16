@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{88C63509-8590-4C92-B8C3-F9D659BACA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Application", "Core\HepsiApi.Application\HepsiApi.Application.csproj", "{AF6FFF27-7106-464E-9AD6-51E410ED654C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Application", "Core\HepsiApi.Application\HepsiApi.Application.csproj", "{AF6FFF27-7106-464E-9AD6-51E410ED654C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Core", "Core\HepsiApi.Core\HepsiApi.Core.csproj", "{27F73E81-669C-49AC-B7AD-65F60187D21B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Infrastructure", "Infrastructure\HepsiApi.Infrastructure\HepsiApi.Infrastructure.csproj", "{8B03709F-5FA0-448B-B2D9-DB8E141DD329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Infrastructure", "Infrastructure\HepsiApi.Infrastructure\HepsiApi.Infrastructure.csproj", "{8B03709F-5FA0-448B-B2D9-DB8E141DD329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Presistence", "Infrastructure\HepsiApi.Presistence\HepsiApi.Presistence.csproj", "{E77453E3-F097-451E-9168-BA13836D36DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Presistence", "Infrastructure\HepsiApi.Presistence\HepsiApi.Presistence.csproj", "{E77453E3-F097-451E-9168-BA13836D36DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{1542D3DE-B1BA-4DA6-BFAA-E264024CE924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{1542D3DE-B1BA-4DA6-BFAA-E264024CE924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Domain", "Core\HepsiApi.Domain\HepsiApi.Domain.csproj", "{01E22239-5462-4261-B8F4-666C07E96B30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{AF6FFF27-7106-464E-9AD6-51E410ED654C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6FFF27-7106-464E-9AD6-51E410ED654C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF6FFF27-7106-464E-9AD6-51E410ED654C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27F73E81-669C-49AC-B7AD-65F60187D21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27F73E81-669C-49AC-B7AD-65F60187D21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27F73E81-669C-49AC-B7AD-65F60187D21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27F73E81-669C-49AC-B7AD-65F60187D21B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B03709F-5FA0-448B-B2D9-DB8E141DD329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B03709F-5FA0-448B-B2D9-DB8E141DD329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B03709F-5FA0-448B-B2D9-DB8E141DD329}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,16 +41,20 @@ Global
 		{1542D3DE-B1BA-4DA6-BFAA-E264024CE924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1542D3DE-B1BA-4DA6-BFAA-E264024CE924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1542D3DE-B1BA-4DA6-BFAA-E264024CE924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E22239-5462-4261-B8F4-666C07E96B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E22239-5462-4261-B8F4-666C07E96B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E22239-5462-4261-B8F4-666C07E96B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E22239-5462-4261-B8F4-666C07E96B30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AF6FFF27-7106-464E-9AD6-51E410ED654C} = {E07A70FE-31EF-4757-8EFC-F4317AAB3C3C}
-		{27F73E81-669C-49AC-B7AD-65F60187D21B} = {E07A70FE-31EF-4757-8EFC-F4317AAB3C3C}
 		{8B03709F-5FA0-448B-B2D9-DB8E141DD329} = {DD582932-DB84-4576-8DA0-35D19764B2F6}
 		{E77453E3-F097-451E-9168-BA13836D36DD} = {DD582932-DB84-4576-8DA0-35D19764B2F6}
 		{1542D3DE-B1BA-4DA6-BFAA-E264024CE924} = {88C63509-8590-4C92-B8C3-F9D659BACA3C}
+		{01E22239-5462-4261-B8F4-666C07E96B30} = {E07A70FE-31EF-4757-8EFC-F4317AAB3C3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99BE9720-5F57-49D8-BC10-C5F4FF1370F3}
